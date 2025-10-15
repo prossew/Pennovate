@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+
+}
+
+.nav__logo {
+width: 13px;
+height: 14px;
+background-color: #001F7E8A;
+position: relative;
+left: 10%;
+}
+
+.nav__title {
+color: #001F7E;
+font-size: 20px;
+font-weight: 700;
+font-family: "Poppins", sans-serif;
+
+
+}
+
+.nav__menu ul {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+gap: 38px;
+font-size: 16px;
+font-weight: 400;
+font-family: "Rubik", sans-serif;
+color: #4F5665;
+}
+
+.nav__button button{
+color: #F53855;
+padding: 20px;
+width: 218px;
+height: 45px;
+text-align: center;
+border-radius: 50px ;
+}

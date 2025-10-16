@@ -9,9 +9,12 @@ box-sizing: border-box;
 
 .nav {
 display: flex;
+justify-content:space-between;
 align-items: center;
-justify-content: space-between;
 flex-direction: row;
+margin-top: 50px;
+margin-right: 108px;
+margin-left: 105px; 
 
 }
 
@@ -19,8 +22,8 @@ flex-direction: row;
 width: 13px;
 height: 14px;
 background-color: #001F7E8A;
-position: relative;
-left: 10%;
+
+
 }
 
 .nav__title {
@@ -28,14 +31,27 @@ color: #001F7E;
 font-size: 20px;
 font-weight: 700;
 font-family: "Poppins", sans-serif;
+margin-right: auto;
+margin-left: 7.5px;
+    text-shadow: 15px 15px 30px rgba(0, 31, 126, 0.5);
 
+}
 
+.nav__menu {
+position: absolute;
+justify-content: center;
+align-items: center;
+left: 50%; 
+transform: translateX(-50%);
+}
+.nav__menu a {
+text-decoration: none;
+color: inherit;
 }
 
 .nav__menu ul {
 list-style-type: none;
 display: flex;
-flex-direction: row;
 gap: 38px;
 font-size: 16px;
 font-weight: 400;
@@ -45,9 +61,15 @@ color: #4F5665;
 
 .nav__button button{
 color: #F53855;
-padding: 20px;
-width: 218px;
-height: 45px;
+padding: 15px;
 text-align: center;
 border-radius: 50px ;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Rubik", sans-serif;
+background: transparent; 
+font-size: 16px;
+font-weight: 500;
 }

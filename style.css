@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
 margin: 0;
@@ -72,4 +73,64 @@ font-family: "Rubik", sans-serif;
 background: transparent; 
 font-size: 16px;
 font-weight: 500;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 109px;
+}
+.hero__title {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero__text {
+font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 36px;
+color: #4F5665;
+}
+.hero__text span {
+    font-weight: bold;
+}
+
+.hero__background {
+margin-top: 52px;
+z-index: 1;
+position: relative;
+
+}
+
+.hero__reg {
+    width: 412px;
+    height: 610px;
+    border-radius: 51px;
+    background: #FFFFFF;
+    z-index: 9;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    transform: translate(330px, -380px)
+}
+
+.reg__title {
+    color: #494949;
+    font-weight: 800;
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    margin-top: 44px;
+    text-align: center; 
+}
+.reg__text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #575757;
+    margin-top: 28px;
+    text-align: center;
 }

@@ -2,6 +2,7 @@
 
 A modern, responsive landing page for Pennovate educational platform helping students study in UK while earning money.
 
+🌐 View the website: [https://prossew.github.io/Master-Building /]
 
 ## ✨ Features
 
